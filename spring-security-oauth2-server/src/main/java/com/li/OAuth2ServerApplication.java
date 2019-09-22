@@ -1,13 +1,11 @@
-package com.li.springsecurity;
-
+package com.li;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class SpringsecurityApplication {
-
+public class OAuth2ServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringsecurityApplication.class, args);
+        SpringApplication.run(OAuth2ServerApplication.class, args);
     }
-
 }
